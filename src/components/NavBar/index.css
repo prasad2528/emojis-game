@@ -1,0 +1,29 @@
+/* Write your code here. */
+.nav-container {
+  display: flex;
+  justify-content: center;
+  background-color: #ffffff33;
+  padding: 8px;
+}
+.score-container {
+  display: flex;
+  justify-content: space-between;
+  flex-basis: 80%;
+  max-width: 1000px;
+}
+.image-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.image-container h1 {
+  color: #fff;
+}
+.score-card {
+  padding-top: 8px;
+  display: flex;
+  gap: 40px;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 20px;
+}
